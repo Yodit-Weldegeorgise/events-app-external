@@ -10,52 +10,6 @@ Dallas Learning Center is a full-stack web application built during a 6-week sof
 - **API Documentation (Swagger):** https://learning-center-manager-production.up.railway.app/swagger-ui/index.html#/
 
 ---
-
-## Running the Project Locally
-
-### Frontend Setup
-
-```bash
-cd dallas-learning-center/frontend
-npm install
-npm run dev
-```
-
-Frontend runs on:  
-http://localhost:5173  
-
----
-
-### Backend Setup
-
-```bash
-cd ../backend
-./mvnw clean install
-./mvnw spring-boot:run
-```
-
-Backend runs on:  
-http://localhost:8080  
-
----
-
-### Environment Configuration
-
-Create a `.env` file in the frontend if needed:
-
-```plaintext
-VITE_API_BASE_URL=http://localhost:8080
-```
-
----
-
-### Connect Frontend and Backend
-
-Make sure the frontend is calling:  
-http://localhost:8080  
-
----
-
 ## Table of Contents
 1. Overview  
 2. Problem Statement  
@@ -165,6 +119,52 @@ Key capabilities:
 ```bash
 git clone https://github.com/your-repo/dallas-learning-center
 ```
+
+
+## Running the Project Locally
+
+### Frontend Setup
+
+```bash
+cd dallas-learning-center/frontend
+npm install
+npm run dev
+```
+
+Frontend runs on:  
+http://localhost:5173  
+
+---
+
+### Backend Setup
+
+```bash
+cd ../backend
+./mvnw clean install
+./mvnw spring-boot:run
+```
+
+Backend runs on:  
+http://localhost:8080  
+
+---
+
+### Environment Configuration
+
+Create a `.env` file in the frontend if needed:
+
+```plaintext
+VITE_API_BASE_URL=http://localhost:8080
+```
+
+---
+
+### Connect Frontend and Backend
+
+Make sure the frontend is calling:  
+http://localhost:8080  
+
+---
 
 ---
 
