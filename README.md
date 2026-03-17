@@ -11,15 +11,15 @@ Dallas Learning Center is a full-stack web application built during a 6-week sof
 
 ---
 ## Table of Contents
-1. Overview  
-2. Problem Statement  
-3. Solution  
-4. Features  
-5. Technical Details  
-6. API Overview  
-7. Getting Started  
-8. Contributing  
-9. Project Team  
+1. [Overview](#overview)  
+2. [Problem Statement](#problem-statement)  
+3. [Solution](#solution)  
+4. [Features](#features)  
+5. [Technical Details](#technical-details)  
+6. [API Overview](#api-overview)  
+7. [Getting Started](#getting-started)  
+8. [Contributing](#contributing)  
+9. [Project Team](#project-team)  
 
 ---
 
